@@ -32,7 +32,7 @@ include("8.php");
   text-align: center;
   bottom: 20px;      
   margin-right: 10px; 
-  background: #fff;
+  background: #ffff;
   color: #7e7f7e;
   cursor: pointer;
   z-index: 999;
