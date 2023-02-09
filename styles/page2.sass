@@ -1,0 +1,179 @@
+html
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 400
+
+body
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 400
+a
+    color: inherit
+    text-decoration: inherit
+    transition: all 0.1s
+    &:hover
+        color: #c50d0d
+
+.container-xl
+    height: 100%
+
+header
+    height: 63px
+    background: #F5F5DC
+
+.header
+    height: 100%
+    display: flex
+    padding: 9 17
+    justify-content: space-between
+    align-items: center
+
+.nav
+    display: flex
+    flex-direction: vertical
+    align-items: center
+    text-transform: uppercase
+    font-weight: 400
+    font-size: 16px
+    line-height: 131.68%
+
+.cur_page
+    text-decoration-line: underline
+
+.devider
+    margin: 0 11px
+    font-size: 10px
+    font-weight: 600
+
+.header > img
+    width: 191px
+
+.first_sec
+    background: rgba(173, 173, 173, 0.8)
+    height: 640px
+    opacity: 0.8
+    &_wrapper
+        height: 100%
+        display: flex
+        padding-left: 4px
+        background: url("../img/flag.png") no-repeat center border-box
+        flex-direction: column
+        &_title
+            margin-top: 177px
+            font-weight: 700
+            font-size: 70px
+            line-height: 131.68%
+            text-transform: capitalize
+            color: #F5F5DC
+        &_text
+            font-weight: 400
+            font-size: 29px
+            line-height: 131.68%
+            color: #FFFFFF
+            margin-top: 41px
+        &_link
+            margin-top: 41px
+            display: flex
+            text-align: center
+            align-items: center
+            font-weight: 600
+            font-size: 25px
+            line-height: 131.68%
+            text-decoration-line: underline
+            color: #FFFFFF
+            img
+                width: 28px
+                margin-right: 10px
+
+.sec_dev
+    height: 106px
+    background: #F5F5DC
+
+.second_sec
+    min-height: 951px
+    background: #F5F5F5
+    &_wrapper
+        display: flex
+        flex-direction: column
+        padding-top: 40px
+        padding-bottom: 30px
+        &_title
+            font-weight: 700
+            font-size: 50px
+            line-height: 131.68%
+            text-transform: capitalize
+            color: #826644
+            margin-bottom: 51px
+        &_text
+            font-weight: 400
+            font-size: 30px
+            line-height: 186.68%
+            color: #000000
+            margin-bottom: 26px
+
+#mid
+    margin: 51px 0
+
+.slider
+    min-height: 600px
+    background: #F5F5F5
+    &_title
+        font-weight: 700
+        font-size: 45px
+        line-height: 186.68%
+        color: #826644
+        text-align: center
+        height: 84px
+        margin: 0
+        margin-bottom: 25px
+    &_wrapper
+        height: 638px
+        background: #ADADAD
+        .carousel
+            height: 100%
+            &-inner
+                height: 100%
+                position: relative
+            &-caption
+                position: absolute
+                bottom: 250px
+                border-radius: 10px
+                background: #F5F5F5
+                border: 2px solid #826644
+                margin: 0 auto
+                width: fit-content
+                padding-top: 24px
+                padding-left: 4px
+                padding-right: 4px
+                height: 20px
+                display: flex
+                align-items: center
+                font-weight: 400
+                font-size: 40px
+                line-height: 186.68%
+                color: #000000
+                opacity: 0.7
+
+footer
+    height: 266px
+    background: #ADADAD
+
+.footer
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .copy
+        font-size: 16px
+        line-height: 20px
+    .name
+        font-size: 20px
+        line-height: 131.68%
+    .info
+        display: flex
+        text-align: right
+        flex-direction: column
+        font-size: 15px
+        line-height: 18px
+        gap: 15px
+        img
+            margin-right: 6px
